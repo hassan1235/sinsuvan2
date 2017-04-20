@@ -1,0 +1,86 @@
+/*theme by flambon*/
+/*grad box css - type 1*/
+/*date: 02 Aug 2013*/
+/*http://flambons.com*/
+
+body {margin:0;padding:0;color:#bbb;background:#333}
+#navigation {background:url(/files/grad_box/ho2.png)repeat-x top,url(/files/grad_box/ho4.png)repeat-x bottom,#eee;margin:0;padding:7px 7px 7px 0;}
+#navigation span {background:url(/files/grad_box/ho3.png)repeat-x top,url(/files/grad_box/ho5.png)repeat-x bottom,#f70;margin:0;padding:7px 9px;}
+#navigation span+span {background:url(/files/grad_box/ho1.png)left center no-repeat}
+#navigation span+span+span {background:transparent !important}
+#navigation span+span+span a {content:"Menu"}
+#header {margin:75px 0 0 0;padding:0;}
+.heading {margin:0;padding:7px 5px;font-size:small}
+.description {font-size:small;margin:0;padding:15px 5px 5px 5px;background: url(/files/grad_box/ho13.png)repeat-x bottom}
+#search-form {margin:0;padding:7px 0 7px 5px;background:url(/files/grad_box/ho14.png)bottom right no-repeat,#222;border-bottom:2px solid #f70;}
+#search-form [type=text] { width:40%;background:url(/files/grad_box/ho2.png)repeat-x top,#eee;margin:1px 0;padding:4px;color:#333;border:none}
+#search-form [type=submit] {;width:20%;margin:1px 0;padding:4px;border:none;color:#ffe;background:url(/files/grad_box/ho3.png)repeat-x top,#f70}
+#top-content {background: url(/files/grad_box/ho7.png)bottom right no-repeat,url(/files/grad_box/ho19.png)repeat-x bottom;padding:0 0 30px 0;margin:0;position:absolute;top:0;left:0;right:0}
+.post-meta .title,.categories {margin:0;padding:2px 0;font-size:small}
+.post,.post-single {background:url(/files/grad_box/ho19.png)repeat-x top,url(/files/grad_box/ho20.png)repeat-x bottom;margin:0;padding:1px;border-top:2px solid #d50}
+.post-meta {margin:0 3px;padding:5px 0;color:#e60}
+.post-content {margin:0 3px;padding:9px 5px;background:url(/files/grad_box/ho29.png)repeat-x top,#222;border:1px solid;border-color:#555 #555 #333 #555}
+#share-buttons {;text-align:center !important}
+#share-buttons a {display:inline-table;width:35%}
+#share-buttons img {width:20px;height:18px}
+.post-meta2,#share-buttons {margin:0 3px 11px 3px;padding:5px;background:url(/files/grad_box/ho30.png)repeat-x bottom,#222;border:1px solid;border-color:#111 #555 #555 #555;text-align:right}
+.post-meta .title:before {content: url(/files/grad_box/ho22.png);float:left;margin-right:3px}
+.post-meta2:after {content:"";display:block;padding:5px;background: url(/files/grad_box/ho25.png)bottom left no-repeat,url(/files/grad_box/ho26.png)bottom right no-repeat;margin:-4px -6px -6px -6px}
+.post-content:before {content:"";display:block;padding:5px;background: url(/files/grad_box/ho27.png)top left no-repeat,url(/files/grad_box/ho28.png)top right no-repeat;margin:-10px -6px 2px -6px}
+.thumbnail{border:1px solid #666 !important;margin:2px 2px 0 0 !important;width:50px !important;height:60px !important;padding:1px !important}
+.post-meta2 a:before {content: url(/files/grad_box/ho31.png);float:left}
+.post:first-child {border-top:none}
+#pagination-links {border-top:1px solid #000;text-align:center;margin:0;padding:1px 3px 3px 3px;background:#444} 
+#pagination-links span {padding:5px;display:inline-block;background:url(/files/grad_box/ho2.png)repeat-x top,url(/files/grad_box/ho4.png)repeat-x bottom,#eee;color:#222} 
+#pagination-links a {padding:5px;display:inline-block;margin-top:2px;text-decoration:none;background:url(/files/grad_box/ho3.png)repeat-x top,url(/files/grad_box/ho5.png)repeat-x bottom,#f70;color:#fff;text-shadow:#700 1px 1px 1px} 
+#pagination-links a:hover {text-decoration: none;}
+#recent-posts-list h4,#following-list h4,h3 {background:url(/files/grad_box/ho2.png)repeat-x top,url(/files/grad_box/ho4.png)repeat-x bottom,#eee;margin:0;padding:8px 0;border:1px solid #000;border-width:1px 0;}
+#recent-posts-list h4,#following-list h4,#blogroll h3,#category-bottom h3 {content:none}
+#comments h3 a,#navigation-menu h3 a {margin:0;padding:8px 12px;background:url(/files/grad_box/ho3.png)repeat-x top,url(/files/grad_box/ho5.png)repeat-x bottom,#f70;color:#fff;text-shadow:#500 1px 1px 1px;}
+#category-bottom h3:before {margin:0;padding:8px 12px;background:url(/files/grad_box/ho3.png)repeat-x top,url(/files/grad_box/ho5.png)repeat-x bottom,#f70;color:#fff;text-shadow:#500 1px 1px 1px;content:"Categories"}
+#blogroll h3:before {margin:0;padding:8px 12px;background:url(/files/grad_box/ho3.png)repeat-x top,url(/files/grad_box/ho5.png)repeat-x bottom,#f70;color:#fff;text-shadow:#500 1px 1px 1px;content:"Blogroll"}
+#blogroll,#category-bottom,#navigation-menu,#comments {background:url(/files/grad_box/ho20.png)repeat-x bottom;margin:0;padding:1px}
+ul,ol {margin:5px 3px 11px 3px;padding:0;background:url(/files/grad_box/ho29.png)repeat-x top,url(/files/grad_box/ho30.png)repeat-x bottom,#222;border:1px solid #555}
+ul:after,ol:after {content:"";display:block;padding:5px;background: url(/files/grad_box/ho25.png)bottom left no-repeat,url(/files/grad_box/ho26.png)bottom right no-repeat;margin:-9px -1px -1px -1px}
+ul:before{content:"";display:block;padding:5px;background: url(/files/grad_box/ho27.png)top left no-repeat,url(/files/grad_box/ho28.png)top right no-repeat;margin:-1px -1px -9px -1px}
+#category-bottom li,#navigation-menu li {list-style:none;margin:0;padding:5px;border-top:1px solid #333;border-bottom:1px solid #101010}
+#category-bottom li {text-align:right}
+#category-bottom li a {float:left}
+#blogroll li,#following-list li,#blogroll_list li,#recent-posts-list li,.post-content li {list-style:url(/files/grad_box/ho31.png) inside;margin:0;padding:5px;border-top:1px solid #333;border-bottom:1px solid #101010}
+#bottom-content {border-bottom:1px solid #555}
+#footer {background:url(/files/grad_box/ho32.png)repeat-x top,#444;margin:0;padding:5px;text-align:center;border-top:1px solid #111}
+h6 {margin:0;padding:0}
+#recent-posts-list li:last-child,#navigation-menu li.last,#blogroll li.last,#category-bottom li.last {border-bottom:none !important}
+#recent-posts-list li:first-child,#navigation-menu li:first-child,#blogroll li:first-child,#category-bottom li:first-child {border-top:none !important}
+.post-single {border-top:none !important}
+#recent-posts-list h4:before {margin:0;padding:8px 12px;background:url(/files/grad_box/ho3.png)repeat-x top,url(/files/grad_box/ho5.png)repeat-x bottom,#f70;color:#fff;text-shadow:#500 1px 1px 1px;content:"Recent Posts"} 
+#following-list h4:before {margin:0;padding:8px 12px;background:url(/files/grad_box/ho3.png)repeat-x top,url(/files/grad_box/ho5.png)repeat-x bottom,#f70;color:#fff;text-shadow:#500 1px 1px 1px;content:"Following List"}
+#recent-posts-list h4 {margin:0 3px !important;border:1px solid #000;border-color:#000 #555 #000 #555;border-width:1px !important}
+ol {margin:0 3px 11px 3px !important}
+#share-buttons {margin:0 3px !important}
+.post-content h3 {color:#111;padding:8px !important}
+#comments h4 {margin:0;padding:5px;border-bottom:1px solid #444;text-align:center}
+#comments h5 {margin:0;padding:5px;border-top:1px solid #222;text-align:center}
+.comment {margin:5px 3px;padding:0;background:#222;border:1px solid #444;}
+.comment-header {margin:0;padding:3px;color:#888;border:1px solid #111;background:#1f1f1f}
+.comment-header .title {padding:0 !important;text-align:left !important;border:none !important}
+.comment-content {margin:0;padding:12px 3px;border:1px solid #111;border-color:#333 #111 #111 #111;background: url(/files/grad_box/ho30.png)repeat-x bottom}
+.comment-header .title:before {content: url(/files/grad_box/ho34.png);float:left;margin-right:3px}
+#comment_form {text-align:left;margin:0;padding:5px;} 
+#comment_form textarea{width:80%;margin:2px 0;padding:10px 0;border:none;background:url(/files/grad_box/ho2.png)repeat-x top,url(/files/grad_box/ho4.png)repeat-x bottom,#eee} 
+#comment_form input[type=text],.mobile_body #comment_form select{width:50%;margin:2px 0;border:none;background:url(/files/grad_box/ho2.png)repeat-x top,url(/files/grad_box/ho4.png)repeat-x bottom,#eee} 
+#comment_form [type=submit] {margin:2px 0;border:none;padding:3px;color:#fff;background:url(/files/grad_box/ho3.png)repeat-x top,url(/files/grad_box/ho5.png)repeat-x bottom,#f70}
+#navigation-menu li h3 {margin:-5px;padding:5px;color:#111}
+#navigation-menu li h5 {margin:-5px;padding:5px;background:#444;}
+#navigation span+span a,a {color:#e60;text-decoration:none;text-shadow:none}
+#navigation span a {color:#fff;text-shadow:#500 1px 1px 1px}
+.post-meta .title,.post-meta a {color:#fff;text-shadow:#000 1px 1px 1px}
+.highlight {margin:0 0 -1px 0;padding:6px;text-align:center;color:#333} 
+.messages {margin:4px -2px 0 -2px;padding:3px;text-align:center;color:#333}
+#comments li {margin:0;padding:5px;list-style:none;color:#ccc}
+#footer h6:before {content:"fmb_" !important;display:inline !important}
+#footer:after {content:"Grad Box By Flambon" !important;margin:1px;padding:1px;display:block !important;font-size:small !important}
+body img {max-width:80%;max-height:80%}
+.post-single .post-content textarea {width:70px;height:70px;padding:0;margin:0}
+.post-content,.comment-content {word-wrap:break-word}
+107.191.40.104
